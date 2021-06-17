@@ -4,46 +4,30 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Zomato - Largest Food Delivery network</title>
+    <title>Zomato landing page</title>
     <link rel="stylesheet" href="style.css">
     <link
       href="https://fonts.googleapis.com/css?family=Merriweather:300,300italic,regular,italic,700,700italic,900,900italic"
       rel="stylesheet"
     />
   </head>
+  
+  
   <body>
     <header>
       <nav class="navbar">
         <div class="navbar__brand">
-          <img src="./assets/logo.png" alt="logo" class="brand__logo" />
+          <img src="./assets/logo.png" alt="logo" class="navbar__logo" />
         </div>
         <div class="navbar__nav__items">
           <div class="nav__item">
-            <button class="button__primary hide__mobile">Order Food</button>
-            <button
-              class="button__primary hamburger__menu mobile__only"
-              id="hamburgermenu"
-            >
-              <div></div>
-              <div></div>
-              <div></div>
-            </button>
+            <button class="button__primary">Order Food</button>
           </div>
         </div>
       </nav>
-      <div class="mobile__navbar__items mobile__only hamburger__menu__close">
-        <ul>
-          <li class="nav__item">Products</li>
-          <li class="nav__item">Restaurants</li>
-          <li class="nav__item">Pricing</li>
-          <li class="nav__item">About Us</li>
-        </ul>
-
-        <div class="nav__item">
-          <button class="button__primary">Order Food</button>
-        </div>
-      </div>
     </header>
+    
+    
     <main class="container">
       <section class="hero__container">
         <div class="hero__image__container">
@@ -67,17 +51,8 @@
         </div>
       </section>
 
-      <section class="video__footage__container">
-        <div class="video__footage">
-          <iframe
-            src="https://player.vimeo.com/video/323795266"
-            frameborder="0"
-            allow="autoplay; fullscreen; picture-in-picture"
-            allowfullscreen
-            class="chef__video"
-          ></iframe>
-        </div>
-        <div class="video__footage__text">
+      <section class="middle__section__container">
+        <div class="middle__section__text">
           <p>
             Your food will be prepared safely with an experienced chef, without
             compromising on the quality and hygiene.
@@ -88,9 +63,8 @@
       <section class="food__list__container">
         <h1 class="text-xl">Explore our menu</h1>
         <div class="food__list__container__diagonal"></div>
-
-        <div class="food__menu__card__list">
-          <div class="food__menu__card">
+          <div class="food__menu__card__list">
+            <div class="food__menu__card">
             <img
               src="./assets/burger.jpg"
               alt="burger"
@@ -135,6 +109,8 @@
         </div>
         <div class="food__list__view__more">View More</div>
       </section>
+      
+      
       <section class="restaurant__list__container">
         <div class="restaurant__list__text">
           <h4 class="text-xl">Order From 100s of restaurants</h4>
@@ -168,6 +144,8 @@
           </div>
         </div>
       </section>
+      
+      
       <section class="email__subcribe__container">
         <div>
           <h1 class="text-xl">Stay Updated</h1>
@@ -192,6 +170,8 @@
         </h3>
       </section>
     </main>
+    
+    
     <footer>
       <img src="./assets/logo.png" alt="logo" />
       <ul>
